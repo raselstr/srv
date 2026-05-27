@@ -2,6 +2,7 @@
 # 📦 Applications
 # =========================
 /apps/
+/docker/infra/postgres/data/
 
 # =========================
 # 🔐 Environment Variables
