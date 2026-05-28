@@ -31,6 +31,7 @@ secrets/
 # 🧱 Django
 # =========================
 *.log
+*.sqlite
 db.sqlite3
 media/
 staticfiles/
