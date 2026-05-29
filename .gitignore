@@ -3,8 +3,8 @@
 # =========================
 /apps/
 /docker/infra/postgres/data/
-/docker/infra/npm/data/
-/docker/infra/npm/letsencrypt/
+/docker/infra/npm/
+!/docker/infra/npm/docker-compose.yml
 
 # =========================
 # 🔐 Environment Variables
@@ -35,6 +35,7 @@ secrets/
 *.log
 *.sqlite
 db.sqlite3
+databaese.sqlite
 media/
 staticfiles/
 
