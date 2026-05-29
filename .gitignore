@@ -3,6 +3,8 @@
 # =========================
 /apps/
 /docker/infra/postgres/data/
+/docker/infra/npm/data/
+/docker/infra/npm/letsencrypt/
 
 # =========================
 # 🔐 Environment Variables
