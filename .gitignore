@@ -3,8 +3,10 @@
 # =========================
 /apps/
 /docker/infra/postgres/data/
-/docker/infra/npm/
+/docker/infra/npm/**
+!/docker/infra/npm/
 !/docker/infra/npm/docker-compose.yml
+
 
 # =========================
 # 🔐 Environment Variables
@@ -50,7 +52,6 @@ docker-compose.override.yml
 # =========================
 postgres_data/
 *.sql
-!latest_backup.sql
 
 # =========================
 # 🧠 IDE / Editor
@@ -85,3 +86,27 @@ build/
 htmlcov/
 .tox/
 .pytest_cache/
+
+# Abaikan semua isi backups
+backups/**
+backups/database/**
+
+# Jangan abaikan folder yang diperlukan
+!backups/
+!backups/postgres/
+!backups/postgres/latest/
+
+# Track isi latest
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+!backups/postgres/latest/**
+=======
+!backups/postgres/latest/**
+>>>>>>> 441f4f9 (ntah la)
+=======
+!backups/postgres/latest/**
+>>>>>>> 441f4f9 (ntah la)
+=======
+!backups/postgres/latest/**
+>>>>>>> 441f4f9 (ntah la)
