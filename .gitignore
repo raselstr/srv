@@ -88,25 +88,5 @@ htmlcov/
 .pytest_cache/
 
 # Abaikan semua isi backups
-backups/**
-backups/database/**
-
-# Jangan abaikan folder yang diperlukan
-!backups/
-!backups/postgres/
-!backups/postgres/latest/
-
-# Track isi latest
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-!backups/postgres/latest/**
-=======
-!backups/postgres/latest/**
->>>>>>> 441f4f9 (ntah la)
-=======
-!backups/postgres/latest/**
->>>>>>> 441f4f9 (ntah la)
-=======
-!backups/postgres/latest/**
->>>>>>> 441f4f9 (ntah la)
+backups/*
+!backups/latest/
