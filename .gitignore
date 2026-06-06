@@ -1,7 +1,8 @@
 # =========================
 # 📦 Applications
 # =========================
-/apps/
+docker/apps/
+docker/apps/**
 /docker/infra/postgres/data/
 /docker/infra/npm/**
 !/docker/infra/npm/
