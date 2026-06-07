@@ -12,7 +12,7 @@ services:
       POSTGRES_PASSWORD: r283l8tr
 
     ports:
-      - "5432:5432"
+      - "3000:5432"
 
     volumes:
       - ./data:/var/lib/postgresql/data
