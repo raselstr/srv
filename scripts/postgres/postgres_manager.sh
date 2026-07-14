@@ -9,8 +9,8 @@ set -e
 DB_CONTAINER="postgres"
 PG_USER="raselstr"
 
-BACKUP_ROOT="/home/serverbkad/srv/backups"
-
+# BACKUP_ROOT="/home/serverbkad/srv/backups"
+BACKUP_ROOT="/home/stafperbendaharaan/srv/backups"
 GLOBAL_DIR="${BACKUP_ROOT}/globals"
 DATABASE_DIR="${BACKUP_ROOT}/databases"
 LATEST_DIR="${BACKUP_ROOT}/latest"
